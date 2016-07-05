@@ -1,8 +1,8 @@
 using Nancy;
-using Leet.Objects;
+using LeetConverter.Objects;
 using System.Collections.Generic;
 
-namespace Leet
+namespace LeetConverter
 {
   public class HomeModule : NancyModule
   {
