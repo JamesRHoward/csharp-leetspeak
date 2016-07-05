@@ -23,7 +23,6 @@ namespace LeetConverter.Objects
           StringBuilder sb = new StringBuilder(outputPhrase);
           if ( index != 0 && sb[index-1] != ' ')
           {
-          System.Console.WriteLine("Index is " + index);
           sb[index] = 'z';
           }
           outputPhrase = sb.ToString();
