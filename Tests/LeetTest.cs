@@ -18,5 +18,10 @@ namespace LeetConverter
       Leet testLeet = new Leet();
       Assert.Equal("Alf hunt fat cat. Alf 3at. Mmm.", testLeet.T0L33t("Alf hunt fat cat. Alf eat. Mmm."));
     }
+    public void Leet_ForAnyLetterO_ChangeToZero()
+    {
+      Leet testLeet = new Leet();
+      Assert.Equal("Alf hunt fat p00dl3. Alf 3at. Mmm.", testLeet.T0L33t("Alf hunt fat poodle. Alf eat. Mmm."));
+    }
   }
 }

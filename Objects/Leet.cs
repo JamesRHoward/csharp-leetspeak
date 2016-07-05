@@ -8,7 +8,7 @@ namespace LeetConverter.Objects
     public string T0L33t(string phraseToConvert)
     {
       string outputPhrase = phraseToConvert;
-      outputPhrase = outputPhrase.Replace('e', '3').Replace('E', '3');
+      outputPhrase = outputPhrase.Replace('e', '3').Replace('E', '3').Replace('o', '0').Replace('O', '0');
       return outputPhrase;
     }
   }
